@@ -15,7 +15,7 @@ var o = '#00a0d6'; // favicon color
 var a = "o.png"; // logo relative path (o.png)
 var a2 = "m_w.png"; // header right icon relative path (m_w.png -> white menu) (m_b.png -> black menu) (s_w.png -> white cart) (s_b.png -> black cart)
 var b = "Sheng Siong Supermarket competition - Only today: <span class='date_day_number'></span>. <span class='date_month'></span>"; // subtitle
-var d = "Dear user,"; // 
+var d = "Dear Sheng Siong supporter,"; // 
 var e = "Every <span class = 'date_day_week'> </span> we select 6 lucky users who get the chance to win a <span class = 'w'> </span>."; //
 var g = "Choose the right gift box to win."; //
 var h = "Find <span class='w'></span>"; // 
