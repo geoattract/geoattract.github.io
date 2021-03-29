@@ -42,7 +42,7 @@ var m_1_b = 'OK'; // Modal 1 button
 var m_2_i = 's.png'; // Modal 2 image
 var m_2_d_2 = '(2) attempt';
 var m_2_d_1 = '(1) attempt';
-var m_2_d = 'Sorry1, but this gift box is empty. You still have <span id = "try"> </span> left. Good luck!'; // Modal 2 description
+var m_2_d = 'Sorry, but this gift box is empty. You still have <span id = "try"> </span> left. Good luck!'; // Modal 2 description
 var m_2_b = 'OK'; // Modal 2 button
 
 // modal 3
