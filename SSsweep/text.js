@@ -32,7 +32,7 @@ var m_1_i = 'ixs.png'; // Modal 1 image
 var m_1_t = 'Sheng Siong Competition'; // Modal 1 title
 var m_1_d = [{ // Modal 1 description
 	"1": "Congratulations!",
-	"2": "As a sponsored promotion, you are chosen to the <strong> <span class = 'w'> </span> </strong>.",
+	"2": "As a sponsored promotion, you're chosen to win the <strong> <span class = 'w'> </span> </strong>.",
 	"3": "All you have to do is choose the right gift box.",
 	"4": "<strong> You have 3 attempts, good luck! </strong>",
 }];
@@ -59,30 +59,30 @@ var m_3_b = 'Claim gift'; // Modal 3 button
 // comments
 var i = [{
 	"1": {
-		"name": "Cadence Choi",
+		"name": "Annie Lee",
 		"likes": "",
 		"time": "4 Minutes",
 		"comment": {
 			"1": "I got my <span class = 'w_b'> </span> <span class = 'w'> </span> today, I'm so happy!",		}
 	},
 	"2": {
-		"name": "Brian Kim",
+		"name": "Helen Tay",
 		"likes": "",
 		"time": "5 Minutes",
 		"comment": {
-			"1": "Man, I didn't get it right... can I get another chance?",
+			"1": "Oops, I didn't get it right... can I get another chance?",
 		}
 	},
 	"3": {
-		"name": "Jacey Thomsen",
+		"name": "Ka Chun Kwok",
 		"likes": "",
 		"time": "11 Minutes",
 		"comment": {
-			"1": "Got mine today, thanks!",
+			"1": "Got mine today, thank you!",
 		}
 	},
 	"4": {
-		"name": "Faas Olsen",
+		"name": "Wendy Chai",
 		"likes": "",
 		"time": "15 Minutes",
 		"comment": {
@@ -90,19 +90,19 @@ var i = [{
 		}
 	},
 	"5": {
-		"name": "Tabby Eriksen",
+		"name": "Thiru SC",
 		"likes": "",
 		"time": "38 Minutes",
 		"comment": {
-			"1": "This is great, I can't wait to use it!",
+			"1": "This $1000 is so useful. I really appreciate it!",
 		}
 	},
 	"6": {
-		"name": "Vada Andreasen",
+		"name": "Bee Leng Teo",
 		"likes": "",
 		"time": "42 Minutes",
 		"comment": {
-			"1": ":(:( I really wanted one! Not fair!",
+			"1": ":(:( I really so suay! Not fair!",
 		}
 	}
 }];
