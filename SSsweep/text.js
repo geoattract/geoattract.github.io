@@ -42,7 +42,7 @@ var m_1_b = 'OK'; // Modal 1 button
 var m_2_i = 's.png'; // Modal 2 image
 var m_2_d_2 = '(2) attempt';
 var m_2_d_1 = '(1) attempt';
-var m_2_d = 'Sorry1, but this gift box is empty. You still have <span id = "try"> </span> left. Good luck!'; // Modal 2 description
+var m_2_d = 'Sorry, but this gift box is empty. You still have <span id = "try"> </span> left. Good luck!'; // Modal 2 description
 var m_2_b = 'OK'; // Modal 2 button
 
 // modal 3
@@ -51,10 +51,10 @@ var m_3_t = 'Congratulations!'; // Modal 3 title
 var m_3_s = '(1) <span class = "w_b"> </span> <span class = "w"> </span> has been reserved '; // Modal 3 title
 var m_3_d = [{ // Modal 3 description
 	"1": "1. Click the button below.",
-	"2": "2. Carefully fill out the next page of shipping and contact information.",
-	"3": "3. Your <strong> <span class = 'w'> </span> </strong> will be sent within 2 business days."
+	"2": "2. Fill out your information on the next page.",
+	"3": "3. We'll contact you within 2 business days to qualify your <strong> <span class = 'w'> </span> </strong>."
 }];
-var m_3_b = 'Claim gift'; // Modal 3 button
+var m_3_b = 'Claim Voucher'; // Modal 3 button
 
 // comments
 var i = [{
@@ -78,7 +78,7 @@ var i = [{
 		"likes": "",
 		"time": "11 Minutes",
 		"comment": {
-			"1": "Got mine today, thank you!",
+			"1": "Gt mine today, thank you!",
 		}
 	},
 	"4": {
