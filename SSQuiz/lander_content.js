@@ -14,7 +14,7 @@ var translation = {
   tpl_introP2: "You can choose a <strong>" + prize1 + "</strong> or an <strong>" + prize2 + "</strong>. ",
   tpl_introP3: "To win, the only thing you need to do is answer the following 4 questions ",
   tpl_introP4: "<strong>Note:</strong> 10 randomly selected users have received this invitation and there are only several prizes left. ",
-  tpl_q1: "Question 1 of 4: <strong>How many years have you been shopping with Sheng Siong?</strong>",
+  tpl_q1: "Question 1 of 4: <strong>How long have you been shopping with Sheng Siong?</strong>",
   tpl_q1a1: "1 year or less",
   tpl_q1a2: "3-5 years",
   tpl_q1a3: "More than 5 years",
