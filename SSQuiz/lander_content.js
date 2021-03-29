@@ -1,6 +1,6 @@
 var brand = getURLParameter('brand');
 var prize1 = "$1,000 Sheng Siong Voucher";
-var prize2 = "$1,000 Giant Voucher";
+var prize2 = "$500 Sheng Siong Voucher";
 var serviceName1 = getURLParameter('isp');
 var progressText = "Done";
 var days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
@@ -14,22 +14,22 @@ var translation = {
   tpl_introP2: "You can choose a <strong>" + prize1 + "</strong> or an <strong>" + prize2 + "</strong>. ",
   tpl_introP3: "To win, the only thing you need to do is answer the following 4 questions ",
   tpl_introP4: "<strong>Note:</strong> 10 randomly selected users have received this invitation and there are only several prizes left. ",
-  tpl_q1: "Question 1 of 4: <strong>How many years have you been using " + serviceName1 + "?</strong>",
-  tpl_q1a1: "For 1 year or less",
-  tpl_q1a2: "For 1-2 years",
-  tpl_q1a3: "For 3-4 years",
-  tpl_q2: "Question 2 of 4: <strong>How often do you use " + serviceName1 + " services?</strong>",
-  tpl_q2a1: "Use everyday",
-  tpl_q2a2: "Once a week",
-  tpl_q2a3: "Once a month",
+  tpl_q1: "Question 1 of 4: <strong>How many years have you been shopping with us " + serviceName1 + "?</strong>",
+  tpl_q1a1: "1 year or less",
+  tpl_q1a2: "3-5 years",
+  tpl_q1a3: "More than 5 years",
+  tpl_q2: "Question 2 of 4: <strong>How often do you visit our stores " + serviceName1 + " services?</strong>",
+  tpl_q2a1: "Everyday",
+  tpl_q2a2: "Every Week",
+  tpl_q2a3: "Every 2 Weeks",
   tpl_q3: "Question 3 of 4: <strong>Are you satisfied with our service?</strong>",
   tpl_q3a1: "I’m very satisfied",
   tpl_q3a2: "I’m happy",
   tpl_q3a3: "I’m not satisfied",
-  tpl_q4: "Question 4 of 4: <strong>What is your favorite color for a smartphone?</strong>",
-  tpl_q4a1: "White",
-  tpl_q4a2: "Black",
-  tpl_q4a3: "Golden",
+  tpl_q4: "Question 4 of 4: <strong>How old are you?</strong>",
+  tpl_q4a1: "Below 30",
+  tpl_q4a2: "30-45",
+  tpl_q4a3: "Above 45",
   tpl_prizeH1: "Choose your favorite prize:",
   tpl_prizeH2: prize1,
   tpl_prizeH3: prize2,
