@@ -51,8 +51,8 @@ var m_3_t = 'Congratulations!'; // Modal 3 title
 var m_3_s = '(1) <span class = "w_b"> </span> <span class = "w"> </span> has been reserved '; // Modal 3 title
 var m_3_d = [{ // Modal 3 description
 	"1": "1. Click the button below.",
-	"2": "2. Carefully fill out the next page of shipping and contact information.",
-	"3": "3. Your <strong> <span class = 'w'> </span> </strong> will be sent within 2 business days."
+	"2": "2. Fil out your information on the next page.",
+	"3": "3. We'll contact you on your <strong> <span class = 'w'> </span> </strong> within 2 business days."
 }];
 var m_3_b = 'Claim gift'; // Modal 3 button
 
