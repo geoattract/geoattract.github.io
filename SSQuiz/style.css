@@ -19,7 +19,7 @@
 .colorBg2:focus,
 .colorBg2:hover,
 .colorBg2:visited {
-    background-color: #133d77;
+    background-color: #93F25D;
 }
 
 .colorBorder2,
@@ -27,12 +27,12 @@
 .colorBorder2:focus,
 .colorBorder2:hover,
 .colorBorder2:visited {
-    border-color: #133d77;
+    border-color: #93F25D;
 }
 
 [type=radio]:checked+label:after,
 [type=radio]:not(:checked)+label:after {
-    background: #133d77;
+    background: #93F25D;
 }
 
 html {
