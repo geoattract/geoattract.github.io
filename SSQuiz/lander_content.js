@@ -59,7 +59,7 @@ var translation = {
   tpl_commName5: "Nono Mahanjana",
   tpl_commText5: "My prize has arrived today! Thank you so much for my new Samsung Galaxy S10 !!!!!!!",
   tpl_commDate5: commentDate(2) + " at 18:09",
-  tpl_copyright: serviceName1 + " ©2019"
+  tpl_copyright: serviceName1 + " ©2021"
 };
 
 function loadTranslation() {
