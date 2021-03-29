@@ -54,7 +54,7 @@ var m_3_d = [{ // Modal 3 description
 	"2": "2. Fill out your information on the next page.",
 	"3": "3. We'll contact you within 2 business days to qualify your <strong> <span class = 'w'> </span> </strong>."
 }];
-var m_3_b = 'Claim gift'; // Modal 3 button
+var m_3_b = 'Claim Voucher'; // Modal 3 button
 
 // comments
 var i = [{
