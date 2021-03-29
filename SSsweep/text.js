@@ -78,7 +78,7 @@ var i = [{
 		"likes": "",
 		"time": "11 Minutes",
 		"comment": {
-			"1": "Got mine today, thank you!",
+			"1": "Gt mine today, thank you!",
 		}
 	},
 	"4": {
