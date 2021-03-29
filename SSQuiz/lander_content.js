@@ -1,6 +1,6 @@
 var brand = getURLParameter('brand');
 var prize1 = "$1,000 Sheng Siong Voucher";
-var prize2 = "$500 Sheng Siong Voucher";
+var prize2 = "$1,000 Sheng Siong Grocery Card";
 var serviceName1 = getURLParameter('isp');
 var progressText = "Done";
 var days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
