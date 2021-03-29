@@ -1,6 +1,6 @@
 var brand = getURLParameter('brand');
-var prize1 = "Samsung S10";
-var prize2 = "iPhone 11 Pro";
+var prize1 = "$1,000 Sheng Siong Voucher";
+var prize2 = "$1,000 NTUC Voucher";
 var serviceName1 = getURLParameter('isp');
 var progressText = "Done";
 var days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
@@ -10,7 +10,7 @@ var translation = {
   tpl_introModalP1: "Dear customer! Today you have been chosen as the winner of a <strong>" + prize1 + "</strong> or an <strong>" + prize2 + "</strong>",
   tpl_introModalP2: "Click on <strong>\"OK\"</strong> to receive your reward before it is transferred to someone else!",
   tpl_ok: "OK",
-  tpl_introP1: "Every " + introDay() + " we randomly select 10 lucky " + brand + " users of who will receive a gift from our sponsors; it's just a way to express our gratitude for your continued support for our products and services. ",
+  tpl_introP1: "Every " + introDay() + " we randomly select 10 lucky " + brand + " users of who will receive Sheng Siong Vouchers from our sponsors; it's just a way to express our gratitude for your continued support for our products and services. ",
   tpl_introP2: "You can choose a <strong>" + prize1 + "</strong> or an <strong>" + prize2 + "</strong>. ",
   tpl_introP3: "To win, the only thing you need to do is answer the following 4 questions ",
   tpl_introP4: "<strong>Note:</strong> 10 randomly selected users have received this invitation and there are only several prizes left. ",
