@@ -11,7 +11,7 @@
 .colorBorder1:focus,
 .colorBorder1:hover,
 .colorBorder1:visited {
-    border-color: #C1001E
+    border-color: #01227E
 }
 
 .colorBg2,
@@ -19,7 +19,7 @@
 .colorBg2:focus,
 .colorBg2:hover,
 .colorBg2:visited {
-    background-color: #133d77;
+    background-color: #93F25D;
 }
 
 .colorBorder2,
@@ -27,12 +27,12 @@
 .colorBorder2:focus,
 .colorBorder2:hover,
 .colorBorder2:visited {
-    border-color: #133d77;
+    border-color: #93F25D;
 }
 
 [type=radio]:checked+label:after,
 [type=radio]:not(:checked)+label:after {
-    background: #133d77;
+    background: #93F25D;
 }
 
 html {
@@ -145,7 +145,7 @@ canvas {
 .questions .card,
 .questions .list-group-item,
 .prizes .prize1 {
-    background-color: #C1001E
+    background-color: #01227E
 }
 
 .questions,

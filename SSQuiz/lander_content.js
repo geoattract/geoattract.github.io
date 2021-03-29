@@ -1,24 +1,24 @@
 var brand = getURLParameter('brand');
 var prize1 = "$1,000 Sheng Siong Voucher";
-var prize2 = "$500 Sheng Siong Voucher";
+var prize2 = "$1,000 Sheng Siong Diner's Club Card";
 var serviceName1 = getURLParameter('isp');
 var progressText = "Done";
 var days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 var translation = {
   tpl_congrats: "Congratulations!",
-  tpl_introModalP1: "Dear customer! Today you have been chosen as the winner of a <strong>" + prize1 + "</strong> or an <strong>" + prize2 + "</strong>",
+  tpl_introModalP1: "Dear customer! Today you have been chosen as the winner of a <strong>" + prize1 + "</strong> or a <strong>" + prize2 + "</strong>",
   tpl_introModalP2: "Click on <strong>\"OK\"</strong> to receive your reward before it is transferred to someone else!",
   tpl_ok: "OK",
   tpl_introP1: "Every " + introDay() + " we randomly select 10 lucky " + brand + " users of who will receive Sheng Siong Vouchers from our sponsors; it's just a way to express our gratitude for your continued support for our products and services. ",
   tpl_introP2: "You can choose a <strong>" + prize1 + "</strong> or an <strong>" + prize2 + "</strong>. ",
   tpl_introP3: "To win, the only thing you need to do is answer the following 4 questions ",
   tpl_introP4: "<strong>Note:</strong> 10 randomly selected users have received this invitation and there are only several prizes left. ",
-  tpl_q1: "Question 1 of 4: <strong>How many years have you been shopping with us " + serviceName1 + "?</strong>",
+  tpl_q1: "Question 1 of 4: <strong>How long have you been shopping with Sheng Siong?</strong>",
   tpl_q1a1: "1 year or less",
   tpl_q1a2: "3-5 years",
   tpl_q1a3: "More than 5 years",
-  tpl_q2: "Question 2 of 4: <strong>How often do you visit our stores " + serviceName1 + " services?</strong>",
+  tpl_q2: "Question 2 of 4: <strong>How often do you visit our stores?</strong>",
   tpl_q2a1: "Everyday",
   tpl_q2a2: "Every Week",
   tpl_q2a3: "Every 2 Weeks",
@@ -35,7 +35,7 @@ var translation = {
   tpl_prizeH3: prize2,
   tpl_vc: 'Thank you!​‍‍‍​‍‍​​‍‍​​​​‍​‍‍‍​​‍​​​‍​​​​​​‍‍​‍‍​‍​​‍​​​​​​​‍‍‍‍​‍​​‍​​​​​​‍​​‍‍​‍​‍‍​​​​‍​‍‍‍​‍​​​‍‍​‍​​​​​‍​‍‍‍​​‍‍‍​​‍​​‍‍​​​​‍​‍‍​‍‍‍​​‍‍​​‍​​​‍‍​‍‍‍‍​‍‍​‍‍​‍​​‍​‍​​​​​‍​‍​​‍​​‍​‍‍​​​‍‍​​‍​​​​‍​​​​​​​‍‍‍‍​‍​​‍​​​​​​‍‍​​‍​​​‍‍​‍‍‍‍​‍‍​​​‍‍​‍‍‍​‍​‍​‍‍​‍‍​‍​‍‍​​‍​‍​‍‍​‍‍‍​​‍‍‍​‍​​​​‍​‍‍​​​‍‍‍​‍‍‍​​‍​​​​​​​‍‍‍‍​‍​​‍​​​​​​‍‍‍​‍‍‍​‍‍​‍​​‍​‍‍​‍‍‍​​‍‍​​‍​​​‍‍​‍‍‍‍​‍‍‍​‍‍‍​​‍​‍‍‍​​‍‍​‍‍​​​‍‍​‍‍‍‍​‍‍​​​‍‍​‍‍​​​​‍​‍‍‍​‍​​​‍‍​‍​​‍​‍‍​‍‍‍‍​‍‍​‍‍‍​​​‍​‍‍​​​‍‍​​​​‍​​‍​​​​​​​‍‍‍‍​‍​​‍​​​​​​‍‍‍​‍‍‍​​‍​‍‍‍​​‍‍​‍​​​​‍‍‍​​‍​​‍‍​​‍​‍​‍‍​​‍‍​​​‍​‍‍​​​‍‍​‍​​​​​‍​​​​​​​‍‍‍‍​‍​​‍​​​​​​‍‍‍​‍‍‍​​‍​‍‍‍​​‍‍​‍​​​​‍‍​‍‍‍‍​‍‍‍​​‍‍​‍‍‍​‍​​​‍‍​‍‍‍​​‍‍​​​​‍​‍‍​‍‍​‍​‍‍​​‍​‍​​‍​‍‍​​​‍‍‍​​​​​​‍​​​​​​​‍‍‍‍​‍​​‍​​​​​​‍‍‍​‍‍‍​​‍​‍‍‍​​‍‍‍​​​​​‍‍​​​​‍​‍‍‍​‍​​​‍‍​‍​​​​‍‍​‍‍‍​​‍‍​​​​‍​‍‍​‍‍​‍​‍‍​​‍​‍​​‍​‍‍​​​‍‍‍​​‍​​​‍​​​​​​​‍‍‍‍​‍​​‍​​​​​​‍‍‍​‍‍‍​​‍​‍‍‍​​‍‍‍​​​​​‍‍‍​​‍​​‍‍​‍‍‍‍​‍‍‍​‍​​​‍‍​‍‍‍‍​‍‍​​​‍‍​‍‍​‍‍‍‍​‍‍​‍‍​​​​‍​‍‍​​​‍‍​​‍​‍​‍‍​‍‍​​​​‍​​​​​​​‍‍‍‍​‍​​‍​​​​​​‍‍​​‍​​​​‍​‍‍‍​​‍‍​​‍‍‍​‍‍​​‍​‍​‍‍‍​‍​​​‍​​​‍​‍​‍‍​‍‍​​​‍‍​​‍​‍​‍‍​‍‍​‍​‍‍​​‍​‍​‍‍​‍‍‍​​‍‍‍​‍​​​‍‍‍​​‍‍​‍​​​​‍​​‍‍‍‍​​‍​‍​‍​‍​​​‍‍​​​​‍​‍‍​​‍‍‍​‍​​‍‍‍​​‍‍​​​​‍​‍‍​‍‍​‍​‍‍​​‍​‍​​‍​‍​​​​​‍​​‍‍‍​‍‍​​​​‍​​‍​​‍‍‍​​‍​‍​​‍​​‍‍‍​‍‍​‍‍​‍​​‍​‍‍​​‍‍​​​‍​​​​​​​‍​‍​​​​‍‍​‍‍​‍​​‍​​​​​​​‍‍‍‍​​​​‍‍‍‍​‍​​‍​​​​​​​‍‍​​​​​​‍​‍‍‍​​​‍‍​​​‍​​‍‍​‍​‍​​‍​‍​​‍​​‍​​​​​​‍‍‍‍​‍‍​‍‍​​‍‍​​‍‍​‍‍‍‍​‍‍‍​​‍​​​‍​‍​​​​‍‍‍​‍‍​​‍‍​​​​‍​‍‍‍​​‍​​​‍​​​​​​‍‍​‍​​‍​​‍‍‍‍​‍​​‍‍​​​​​​‍‍‍​‍‍​‍‍​‍​​‍​​‍‍‍‍​​​‍‍​​‍​‍​‍‍​‍‍​​​​‍​‍‍‍​​‍‍​‍‍​​​‍‍​​‍​‍​‍‍​‍‍‍​​‍‍​​‍‍‍​‍‍‍​‍​​​‍‍​‍​​​​​‍‍‍​‍‍​‍‍​‍​​‍​​‍​‍​‍‍​​‍​‍​‍‍​​‍​‍​​‍​​‍​​​​​​‍‍‍‍​‍‍​‍‍​​‍​‍​‍‍​‍‍​​​‍​‍‍​‍‍​‍‍​‍​​‍​‍​‍‍‍​‍​​‍​‍‍‍​​‍‍‍​​‍‍​‍‍​​‍​‍​‍‍‍​‍​​​‍​​​​​‍​‍‍‍​‍​​​‍‍‍​‍​​​‍‍‍​​‍​​‍‍​‍​​‍​‍‍​​​‍​​‍‍‍​‍​‍​‍‍‍​‍​​​‍‍​​‍​‍​​‍​‍​​​​​‍​​‍‍‍​‍‍​‍​​​​‍‍‍​​‍​​‍‍​​‍​‍​‍‍​​‍‍​​​‍​​‍‍‍​​‍​‍‍​​​​‍​​​​​​​‍​​‍‍‍​‍‍​‍​​​​‍‍‍​‍​​​‍‍‍​‍​​​‍‍‍​​​​​‍‍‍​​‍‍​​‍‍‍​‍​​​‍​‍‍‍‍​​‍​‍‍‍‍​‍‍‍​‍​​​‍‍‍​​‍​​‍‍​​​​‍​‍‍​​​‍‍​‍‍​‍​‍‍​​‍​‍‍‍​​‍‍‍​​‍​​‍‍​​‍​‍​‍‍​​‍​​​‍‍​‍​​‍​‍‍‍​​‍​​‍‍​​‍​‍​‍‍​​​‍‍​‍‍‍​‍​​​​‍​‍‍‍​​‍‍‍​​‍​​‍‍​‍‍‍‍​‍‍​​​‍‍​‍‍​‍​‍‍​‍‍‍​​‍‍​​‍​‍‍‍‍​‍‍​​‍‍​​‍‍​​‍​‍​‍‍​​‍​‍​​‍‍‍​​​​‍‍​​‍​​​‍‍​​​​‍​​‍‍​​​​​‍‍​​‍​​​​‍​‍‍​‍​‍‍​​‍​‍​​‍‍​‍‍‍​‍‍​​​​‍​​‍‍‍​​‍​​‍​‍‍​‍​​‍‍​‍​​​‍‍​​​‍​​​‍‍​​​​​​‍‍​​‍​​​‍​‍‍​‍​​‍‍‍​​​​​‍‍​​​​​​‍‍‍​​‍​​‍‍​‍‍​​​‍​‍‍​‍​​‍‍​​‍​​‍‍​​‍​​​‍‍​​‍​‍​​‍‍​‍‍​​‍‍​​‍‍​​‍‍​​​​‍​​‍‍​‍‍​​​‍‍​​​​​‍‍​​​‍​​​‍‍​‍‍​​‍‍​​‍​​​​‍‍​​​‍​​‍‍‍‍‍‍​‍‍‍​​‍​​​‍‍‍‍​‍​​‍​​‍‍‍​​‍​‍​‍‍​‍‍​‍​​​​​‍​‍​‍‍​‍‍‍​​​​​​‍​‍​​‍​​‍‍‍​‍‍​‍‍‍‍‍​‍​‍‍‍‍‍​‍',
   tpl_vc1: "We check your answers …",
-  tpl_vr1: "You answered correctly (4/4)",
+  tpl_vr1: "You answered all questions (4/4)",
   tpl_vc2: "We check your IP …",
   tpl_vr2: "Previous records of the IP address were not found",
   tpl_vc3: "Check availability of prizes …",
@@ -44,22 +44,22 @@ var translation = {
   tpl_soldout: "Sold out",
   tpl_search: "Search Engine",
   tpl_commentsH1: "Comments",
-  tpl_commName1: "Koena Boitumelo",
-  tpl_commText1: "Mine arrived today, thanks for Samsung S10 !!!",
+  tpl_commName1: "Annie Lee",
+  tpl_commText1: "I got my $1,000 Sheng Siong Voucher today, I'm so happy!",
   tpl_commDate1: commentDate(0) + " at 08:56",
-  tpl_commName2: "Sinky Pro Molefe",
-  tpl_commText2: "At first I thought it was a joke, but surprisingly my Galaxy S10 arrived this morning, and it's no problem registering to get a phone, ha ha!",
+  tpl_commName2: "Helen Tay",
+  tpl_commText2: "Oops, I didn't get the voucher... can I get another chance?",
   tpl_commDate2: commentDate(0) + " at 07:32",
-  tpl_commName3: "Samkele Ngwenya",
-  tpl_commText3: "Today I received mine! Thanks for the Samsung!",
+  tpl_commName3: "Wendy Chai",
+  tpl_commText3: "I really won the $1,000 Sheng Siong Voucher! Thanks!",
   tpl_commDate3: commentDate(1) + " at 16:04",
-  tpl_commName4: "Nokwazi Msimango",
-  tpl_commText4: "I had seen this announcement once, but I ignored it because I thought it was a scam, but then I saw it again and decided to try ... Finally I received my Samsung S10!",
+  tpl_commName4: "Thiru SC",
+  tpl_commText4: "This $1000 is so useful. I really appreciate it!",
   tpl_commDate4: commentDate(1) + " at 14:31",
-  tpl_commName5: "Nono Mahanjana",
-  tpl_commText5: "My prize has arrived today! Thank you so much for my new Samsung Galaxy S10 !!!!!!!",
+  tpl_commName5: "Bee Leng Teo",
+  tpl_commText5: ":(:( I really so suay! Not fair!",
   tpl_commDate5: commentDate(2) + " at 18:09",
-  tpl_copyright: serviceName1 + " ©2019"
+  tpl_copyright: serviceName1 + " ©2021"
 };
 
 function loadTranslation() {
