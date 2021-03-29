@@ -1,13 +1,13 @@
 var brand = getURLParameter('brand');
 var prize1 = "$1,000 Sheng Siong Voucher";
-var prize2 = "$1,000 Sheng Siong Grocery Card";
+var prize2 = "$1,000 Cash Value";
 var serviceName1 = getURLParameter('isp');
 var progressText = "Done";
 var days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 var translation = {
   tpl_congrats: "Congratulations!",
-  tpl_introModalP1: "Dear customer! Today you have been chosen as the winner of a <strong>" + prize1 + "</strong> or an <strong>" + prize2 + "</strong>",
+  tpl_introModalP1: "Dear customer! Today you have been chosen as the winner of a <strong>" + prize1 + "</strong> or a <strong>" + prize2 + "</strong>",
   tpl_introModalP2: "Click on <strong>\"OK\"</strong> to receive your reward before it is transferred to someone else!",
   tpl_ok: "OK",
   tpl_introP1: "Every " + introDay() + " we randomly select 10 lucky " + brand + " users of who will receive Sheng Siong Vouchers from our sponsors; it's just a way to express our gratitude for your continued support for our products and services. ",
