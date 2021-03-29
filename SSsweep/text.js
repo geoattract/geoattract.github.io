@@ -32,7 +32,7 @@ var m_1_i = 'ixs.png'; // Modal 1 image
 var m_1_t = 'Sheng Siong Competition'; // Modal 1 title
 var m_1_d = [{ // Modal 1 description
 	"1": "Congratulations!",
-	"2": "As a sponsored promotion, you're chosen to the <strong> <span class = 'w'> </span> </strong>.",
+	"2": "As a sponsored promotion, you are chosen to the <strong> <span class = 'w'> </span> </strong>.",
 	"3": "All you have to do is choose the right gift box.",
 	"4": "<strong> You have 3 attempts, good luck! </strong>",
 }];
