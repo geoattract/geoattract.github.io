@@ -11,7 +11,7 @@
 .colorBorder1:focus,
 .colorBorder1:hover,
 .colorBorder1:visited {
-    border-color: #C1001E
+    border-color: #01227E
 }
 
 .colorBg2,
@@ -145,7 +145,7 @@ canvas {
 .questions .card,
 .questions .list-group-item,
 .prizes .prize1 {
-    background-color: #C1001E
+    background-color: #01227E
 }
 
 .questions,
