@@ -1,0 +1,47 @@
+HTTrack3.49-2 launched on Thu, 15 Apr 2021 14:10:13 at https://demo.try-builder.com/site/03/00q/ma/0300qma7w8o3wi5p/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/*
+(webhttrack -q -%i -w https://demo.try-builder.com/site/03/00q/ma/0300qma7w8o3wi5p/ -O "/Users/melvinyeo/websites/Test 1" -n -%P -p7 -N0 -s0 -p7 -D -a -K0 -c4 -%k -A25000 -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -%s -%u )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+14:11:36	Error: 	"Bad Request" (400) at link www.googletagmanager.com/gtm.js?id= (from https://demo.try-builder.com/site/03/00q/ma/0300qma7w8o3wi5p/)
+14:11:37	Error: 	"Not Found" (404) at link https://demo.try-builder.com/site/03/00q/ma/0300qma7w8o3wi5p/2021/03/mt-2199-home-bg1.jpg (from https://demo.try-builder.com/site/03/00q/ma/0300qma7w8o3wi5p/)
+14:11:38	Error: 	"Not Found" (404) at link https://demo.try-builder.com/site/03/00q/ma/0300qma7w8o3wi5p/2021/03/mt-2199-home-bg3.jpg (from https://demo.try-builder.com/site/03/00q/ma/0300qma7w8o3wi5p/)
+14:11:38	Warning: 	HTML file (45515 bytes) retransferred due to lack of cache: https://demo.try-builder.com/site/03/00q/ma/0300qma7w8o3wi5p/blog/the-most-common-mistakes-when-managing-personal-finances/
+14:11:38	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://static-demo.try-builder.com/moto3/engine/350/src/mt-includes/js/website.assets.min.js?_build=1614607692
+14:11:38	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://static-demo.try-builder.com/moto3/engine/350/src/mt-includes/js/website.min.js?_build=1614607692
+14:11:38	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://demo.try-builder.com/site/03/00q/ma/0300qma7w8o3wi5p/api.php
+14:11:45	Warning: 	Retry after error -4 (Interrupted transfer) at link https://demo.try-builder.com/site/03/00q/ma/0300qma7w8o3wi5p/blog/the-most-common-mistakes-when-managing-personal-finances/ (from https://demo.try-builder.com/site/03/00q/ma/0300qma7w8o3wi5p/)
+14:11:49	Error: 	"Not Found" (404) at link https://demo.try-builder.com/site/03/00q/ma/0300qma7w8o3wi5p/about-me/2021/03/mt-2199-abour-bg1.png (from https://demo.try-builder.com/site/03/00q/ma/0300qma7w8o3wi5p/about-me/)
+14:11:50	Error: 	"Not Found" (404) at link https://demo.try-builder.com/site/03/00q/ma/0300qma7w8o3wi5p/about-me/2021/03/mt-2199-about-bg2.jpg (from https://demo.try-builder.com/site/03/00q/ma/0300qma7w8o3wi5p/about-me/)
+14:11:50	Warning: 	HTML file (46214 bytes) retransferred due to lack of cache: https://demo.try-builder.com/site/03/00q/ma/0300qma7w8o3wi5p/blog/overalls-with-logo-as-a-method-of-advertising/
+14:11:55	Warning: 	HTML file (45515 bytes) retransferred due to lack of cache: https://demo.try-builder.com/site/03/00q/ma/0300qma7w8o3wi5p/blog/the-most-common-mistakes-when-managing-personal-finances/
+14:11:57	Warning: 	Retry after error -4 (Interrupted transfer) at link https://demo.try-builder.com/site/03/00q/ma/0300qma7w8o3wi5p/blog/overalls-with-logo-as-a-method-of-advertising/ (from https://demo.try-builder.com/site/03/00q/ma/0300qma7w8o3wi5p/blog/)
+14:11:57	Warning: 	HTML file (46214 bytes) retransferred due to lack of cache: https://demo.try-builder.com/site/03/00q/ma/0300qma7w8o3wi5p/blog/overalls-with-logo-as-a-method-of-advertising/
+14:11:57	Error: 	"Not Found" (404) at link https://demo.try-builder.com/site/03/00q/ma/0300qma7w8o3wi5p/exhibitions/2021/03/mt-1299-exhibitions-bg1.png (from https://demo.try-builder.com/site/03/00q/ma/0300qma7w8o3wi5p/exhibitions/)
+14:11:57	Error: 	"Not Found" (404) at link https://demo.try-builder.com/site/03/00q/ma/0300qma7w8o3wi5p/contacts/2021/03/mt-1299-contacts-bg.png (from https://demo.try-builder.com/site/03/00q/ma/0300qma7w8o3wi5p/contacts/)
+14:11:57	Warning: 	HTML file (45837 bytes) retransferred due to lack of cache: https://demo.try-builder.com/site/03/00q/ma/0300qma7w8o3wi5p/blog/the-main-objectives-of-the-marketer/
+14:11:59	Warning: 	Retry after error -4 (Interrupted transfer) at link https://demo.try-builder.com/site/03/00q/ma/0300qma7w8o3wi5p/blog/the-main-objectives-of-the-marketer/ (from https://demo.try-builder.com/site/03/00q/ma/0300qma7w8o3wi5p/blog/?page=2)
+14:11:59	Warning: 	HTML file (45560 bytes) retransferred due to lack of cache: https://demo.try-builder.com/site/03/00q/ma/0300qma7w8o3wi5p/blog/recession-is-a-good-opportunity-to-deal-a-deathblow-to-the-competitors/
+14:11:59	Warning: 	HTML file (45837 bytes) retransferred due to lack of cache: https://demo.try-builder.com/site/03/00q/ma/0300qma7w8o3wi5p/blog/the-main-objectives-of-the-marketer/
+14:12:00	Warning: 	Retry after error -4 (Interrupted transfer) at link https://demo.try-builder.com/site/03/00q/ma/0300qma7w8o3wi5p/blog/recession-is-a-good-opportunity-to-deal-a-deathblow-to-the-competitors/ (from https://demo.try-builder.com/site/03/00q/ma/0300qma7w8o3wi5p/blog/?page=2)
+14:12:00	Warning: 	HTML file (45560 bytes) retransferred due to lack of cache: https://demo.try-builder.com/site/03/00q/ma/0300qma7w8o3wi5p/blog/recession-is-a-good-opportunity-to-deal-a-deathblow-to-the-competitors/
+14:12:00	Error: 	"Not Found" (404) at link https://static-demo.try-builder.com/moto3/engine/350/src/mt-includes/css/mejs-controls.svg (from https://static-demo.try-builder.com/moto3/engine/350/src/mt-includes/css/assets.min.css?_build=1614607692)
+14:12:00	Error: 	"Not Found" (404) at link https://demo.try-builder.com/site/03/00q/ma/0300qma7w8o3wi5p/mt-content/uploads/2015/12/mercedes-benz-mercedes-benz-cls-63-amg-automobile-1920x1080-wallpaper.jpg (from https://demo.try-builder.com/site/03/00q/ma/0300qma7w8o3wi5p/mt-content/assets/styles.css?_build=1618466826)
+14:12:00	Warning: 	Retry after error -4 (Interrupted transfer) at link https://demo.try-builder.com/site/03/00q/ma/0300qma7w8o3wi5p/blog/the-most-common-mistakes-when-managing-personal-finances/ (from https://demo.try-builder.com/site/03/00q/ma/0300qma7w8o3wi5p/)
+14:12:00	Warning: 	HTML file (45515 bytes) retransferred due to lack of cache: https://demo.try-builder.com/site/03/00q/ma/0300qma7w8o3wi5p/blog/the-most-common-mistakes-when-managing-personal-finances/
+14:12:00	Warning: 	Retry after error -4 (Interrupted transfer) at link https://demo.try-builder.com/site/03/00q/ma/0300qma7w8o3wi5p/blog/overalls-with-logo-as-a-method-of-advertising/ (from https://demo.try-builder.com/site/03/00q/ma/0300qma7w8o3wi5p/blog/)
+14:12:00	Warning: 	HTML file (46214 bytes) retransferred due to lack of cache: https://demo.try-builder.com/site/03/00q/ma/0300qma7w8o3wi5p/blog/overalls-with-logo-as-a-method-of-advertising/
+14:12:00	Warning: 	Retry after error -4 (Interrupted transfer) at link https://demo.try-builder.com/site/03/00q/ma/0300qma7w8o3wi5p/blog/the-main-objectives-of-the-marketer/ (from https://demo.try-builder.com/site/03/00q/ma/0300qma7w8o3wi5p/blog/?page=2)
+14:12:00	Warning: 	HTML file (45837 bytes) retransferred due to lack of cache: https://demo.try-builder.com/site/03/00q/ma/0300qma7w8o3wi5p/blog/the-main-objectives-of-the-marketer/
+14:12:06	Warning: 	Retry after error -4 (Interrupted transfer) at link https://demo.try-builder.com/site/03/00q/ma/0300qma7w8o3wi5p/blog/recession-is-a-good-opportunity-to-deal-a-deathblow-to-the-competitors/ (from https://demo.try-builder.com/site/03/00q/ma/0300qma7w8o3wi5p/blog/?page=2)
+14:12:06	Warning: 	HTML file (45560 bytes) retransferred due to lack of cache: https://demo.try-builder.com/site/03/00q/ma/0300qma7w8o3wi5p/blog/recession-is-a-good-opportunity-to-deal-a-deathblow-to-the-competitors/
+14:12:06	Error: 	"Interrupted transfer" (-4) after 2 retries at link https://demo.try-builder.com/site/03/00q/ma/0300qma7w8o3wi5p/blog/the-most-common-mistakes-when-managing-personal-finances/ (from https://demo.try-builder.com/site/03/00q/ma/0300qma7w8o3wi5p/)
+14:12:06	Error: 	"Interrupted transfer" (-4) after 2 retries at link https://demo.try-builder.com/site/03/00q/ma/0300qma7w8o3wi5p/blog/overalls-with-logo-as-a-method-of-advertising/ (from https://demo.try-builder.com/site/03/00q/ma/0300qma7w8o3wi5p/blog/)
+14:12:06	Error: 	"Interrupted transfer" (-4) after 2 retries at link https://demo.try-builder.com/site/03/00q/ma/0300qma7w8o3wi5p/blog/the-main-objectives-of-the-marketer/ (from https://demo.try-builder.com/site/03/00q/ma/0300qma7w8o3wi5p/blog/?page=2)
+14:12:08	Error: 	"Interrupted transfer" (-4) after 2 retries at link https://demo.try-builder.com/site/03/00q/ma/0300qma7w8o3wi5p/blog/recession-is-a-good-opportunity-to-deal-a-deathblow-to-the-competitors/ (from https://demo.try-builder.com/site/03/00q/ma/0300qma7w8o3wi5p/blog/?page=2)
+
+HTTrack Website Copier/3.49-2 mirror complete in 1 minutes 55 seconds : 98 links scanned, 128 files written (39291839 bytes overall) [19374406 bytes received at 168473 bytes/sec], 3621356 bytes transferred using HTTP compression in 43 files, ratio 22%, 2.2 requests per connection
+(13 errors, 23 warnings, 0 messages)
