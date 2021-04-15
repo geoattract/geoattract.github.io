@@ -1,0 +1,5 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+.try-builder.com	TRUE	/	FALSE	1999999999	__cfduid	d7885126eba0c23bbf6b5de6c6a7510b01618464954
+demo.try-builder.com	TRUE	/	FALSE	1999999999	SameSite	Lax
+
